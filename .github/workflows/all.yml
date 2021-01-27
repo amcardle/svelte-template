@@ -3,7 +3,7 @@
 
 name: All Branches Testing
 
-on: push
+on: push, pull-request
 
 jobs:
   build:
