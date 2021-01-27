@@ -22,3 +22,8 @@ test("changes button text on click", async () => {
 
   expect(button).toHaveTextContent("Button Clicked");
 });
+
+test("addition works properly", () => {
+  const { component } = render(Example, { name: "World" });
+  expect(component.addition(1, 2)).toEqual(3);
+});

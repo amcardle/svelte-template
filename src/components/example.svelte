@@ -6,6 +6,10 @@
   function handleClick() {
     buttonText = "Button Clicked";
   }
+
+  export function addition(a, b) {
+    return a + b;
+  }
 </script>
 
 <h1>Hello {name}!</h1>
