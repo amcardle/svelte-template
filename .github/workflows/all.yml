@@ -6,7 +6,7 @@ name: All Branches Testing
 on: [push, pull_request]
 
 jobs:
-  build:
+  test-build:
     runs-on: ubuntu-latest
 
     steps:
